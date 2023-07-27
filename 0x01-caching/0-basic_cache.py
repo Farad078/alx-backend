@@ -1,8 +1,17 @@
 #!/usr/bin/python3
+"""Basic Cache implementation Class
+"""
 from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
+    """
+    A basic cache implementation class
+
+    Attributes:
+        MAX_ITEMS: number of items that can be store in the cache
+    """
+
     def __init__(self):
         super().__init__()
 
